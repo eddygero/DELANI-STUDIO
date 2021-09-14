@@ -1,5 +1,5 @@
 * {
-    font-family: 'Unna', serif;
+    font-family:'Unna', serif; 
 }
 
 .welcome {
@@ -17,7 +17,7 @@
 .contact {
     background-image: url(../images/background/image\ 3\ background.jpg);
     background-size: cover;
-    line-height: 1.7mm;
+
     color: white;
 }
 
@@ -40,7 +40,7 @@ h6 {
     font-weight: bold;
 }
 
-.content1 {
+.content-overlay_1 {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 100%;
@@ -53,7 +53,7 @@ h6 {
     display: none;
 }
 
-.content2 {
+.content-overlay_2 {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 100%;
@@ -66,7 +66,7 @@ h6 {
     display: none;
 }
 
-.content3 {
+.content-overlay_3 {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 100%;
@@ -79,7 +79,7 @@ h6 {
     display: none;
 }
 
-.content4 {
+.content-overlay_4 {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 100%;
@@ -92,7 +92,7 @@ h6 {
     display: none;
 }
 
-.content5 {
+.content-overlay_5 {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 100%;
@@ -105,7 +105,7 @@ h6 {
     display: none;
 }
 
-.content6 {
+.content-overlay_6 {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 100%;
@@ -131,7 +131,7 @@ h6 {
     display: none;
 }
 
-.content8 {
+.content-overlay_8 {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 100%;
@@ -148,7 +148,7 @@ h6 {
     font-weight: 600;
 }
 
-.details_1 {
+.content-details_1 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -159,7 +159,7 @@ h6 {
     display: none;
 }
 
-.details_2 {
+.content-details_2 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -170,7 +170,7 @@ h6 {
     display: none;
 }
 
-.details_3 {
+.content-details_3 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -181,7 +181,7 @@ h6 {
     display: none;
 }
 
-.details_4 {
+.content-details_4 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -192,7 +192,7 @@ h6 {
     display: none;
 }
 
-.details_5 {
+.content-details_5 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -203,7 +203,7 @@ h6 {
     display: none;
 }
 
-.details_6 {
+.content-details_6 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -214,7 +214,7 @@ h6 {
     display: none;
 }
 
-.details_7 {
+.content-details_7 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -225,7 +225,7 @@ h6 {
     display: none;
 }
 
-.details_8 {
+.content-details_8 {
     position: absolute;
     opacity: 1;
     -webkit-transform: translate(-50%, -50%);
@@ -245,9 +245,10 @@ h3 {
 }
 
 .border {
-    border: 2 cm solid white;
+    border: 1cm solid white;
 }
 
-button {
+#button {
     background-color: transparent;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
 }
