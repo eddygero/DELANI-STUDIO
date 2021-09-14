@@ -11,8 +11,7 @@ This project is a web application for Delani studio that shows details about the
 ## TECHNOLOGIES USED
 * HTML5
 * CSS
-* Bootstrap
-* jQuery
+* javascript
 
 ## LIVELINK
 
